@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript 1</title>
+    <title>Javascript Practice 2</title>
 </head>
 <body>
     <script>
-        let admin;
-        let name;
-        name = 'John';
-        admin = name;
-        alert(admin);
-        console.log("Hello World!");
-        console.log(23 + 97);
-        let sequence =  4 + 5 + 6 + 7 + 8 + 9;
-        console.log(sequence);
-        console.log((4 + 6 + 9) / 77)
-        let a = 10;
-        console.log(a);
-        const max = 57;
-        let actual = max - 13;
-        let percentage = actual / max;
-         
+        
+        function addSeven(num) {
+            return num + 7;
+        }
+
+
+        function product(a, b) {
+            return a * b;
+        }
+
+        function capatilize(element) {
+            return element.charAt(0).toUpperCase() + element.slice(1).toLowerCase();
+        }    
+
+        function lastLetter(string) {
+            return string.slice(-1);
+        }
+        
     </script>
 </body>
 </html>
